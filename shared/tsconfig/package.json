@@ -1,0 +1,10 @@
+{
+  "name": "microservices-tsconfig",
+  "version": "0.0.0",
+  "description": "Common tsconfig",
+  "author": "Ratels team",
+  "private": true,
+  "exports": {
+    ".": "./tsconfig.ts"
+  }
+}

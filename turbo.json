@@ -1,0 +1,38 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "package.json",
+    "package-lock.json",
+    "packages/**",
+    "shared/**"
+  ],
+  "pipeline": {
+    "build": {
+      "outputs": [
+        "dist/**"
+      ],
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "start": {
+      "dependsOn": []
+    },
+    "lint": {},
+    "deploy": {
+      "dependsOn": [
+        "build",
+        "test",
+        "lint"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "**/*.ts",
+        "**/*.js"
+      ]
+    },
+    "bundle-size": {},
+    "reinstall": {}
+  }
+}

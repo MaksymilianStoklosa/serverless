@@ -1,0 +1,4 @@
+{
+  "extends": "microservices-tsconfig",
+  "include": ["./src"],
+}

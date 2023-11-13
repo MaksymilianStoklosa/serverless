@@ -1,0 +1,20 @@
+{
+  "name": "microservices-handler-example",
+  "author": "stoklosa.maksymilian@gmail.com",
+  "version": "1.0.0",
+  "description": "Handler example",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint './src'",
+    "watch": "npx tsx watch ./src/local.lambda.ts",
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "microservices-rollup": "*",
+    "microservices-jest": "*",
+    "microservices-tsconfig": "*",
+    "tsx": "^3.13.0"
+  }
+}

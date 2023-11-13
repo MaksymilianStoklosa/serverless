@@ -1,0 +1,10 @@
+{
+  "name": "microservices-rollup",
+  "version": "0.0.0",
+  "description": "Common rollup config",
+  "author": "Ratels team",
+  "private": true,
+  "exports": {
+    ".": "./rollup.config.js"
+  }
+}

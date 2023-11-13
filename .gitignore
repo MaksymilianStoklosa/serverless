@@ -1,0 +1,32 @@
+dist/
+tmp/
+.turbo
+
+# Dependency directories
+node_modules
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE files
+.idea
+.vscode
+jsconfig.json
+
+# terraform
+.terraform
+.terraform.lock.hcl
+plan.tfstate
+plan.tfplan

@@ -1,0 +1,10 @@
+{
+  "name": "microservices-jest",
+  "version": "0.0.0",
+  "description": "Common jest config",
+  "author": "Ratels team",
+  "private": true,
+  "exports": {
+    ".": "./jest.config.js"
+  }
+}
